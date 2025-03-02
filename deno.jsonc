@@ -6,6 +6,11 @@
   },
   "lock": false,
   "publish": {
+    "include": [
+      "**/*.ts",
+      "LICENSE",
+      "README.md"
+    ],
     "exclude": [
       "*_test.ts"
     ]
