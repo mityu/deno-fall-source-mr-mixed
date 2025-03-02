@@ -34,7 +34,7 @@ export const main: Entrypoint = ({ definePickerFromSource }) => {
 
   definePickerFromSource(
     "mr-mixed-customized",
-    mrMixed({ headMruEntryCount: 5 }),
+    mrMixed({ headMruEntryCount: 5 }), // Make the first 5 items be taken from MRU entries.
     {
       matchers: [builtin.matcher.fzf],
       previewers: [builtin.previewer.file],
