@@ -12,8 +12,8 @@ For the details of source options or etc, please check
 ```typescript
 // In your custom.ts
 import type { Entrypoint } from "jsr:@vim-fall/custom";
-import * as builtin from "jsr:@vim-fall/std@^0.10.0/builtin";
-import * as extra from "jsr:@vim-fall/extra@^0.2.0";
+import * as builtin from "jsr:@vim-fall/std/builtin";
+import * as extra from "jsr:@vim-fall/extra";
 import { mrMixed } from "jsr:@mityu/fall-source-mr-mixed";
 
 export const main: Entrypoint = ({ definePickerFromSource }) => {
