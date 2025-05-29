@@ -1,8 +1,4 @@
-import {
-  defineSource,
-  type IdItem,
-  type Source,
-} from "jsr:@vim-fall/std@^0.10.0";
+import { defineSource, type IdItem, type Source } from "@vim-fall/std";
 
 type Detail = {
   path: string;

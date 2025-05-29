@@ -1,11 +1,11 @@
-import type { Denops } from "jsr:@denops/std@^7.3.0";
-import { DenopsStub, type DenopsStubber } from "jsr:@denops/test@^3.0.4";
-import { assert, assertEquals, unreachable } from "jsr:@std/assert@^1.0.7";
-import { assertType } from "jsr:@std/testing@^1.0.9/types";
-import { is } from "jsr:@core/unknownutil@^4.3.0/is";
-import type { Source } from "jsr:@vim-fall/std@^0.10.0";
-import { derive } from "jsr:@vim-fall/custom@^0.1.0/derivable";
-import type { mr } from "jsr:@vim-fall/extra@^0.2.0/source/mr";
+import type { Denops } from "@denops/std";
+import { DenopsStub, type DenopsStubber } from "@denops/test";
+import { assert, assertEquals, unreachable } from "@std/assert";
+import { assertType } from "@std/testing/types";
+import { is } from "@core/unknownutil/is";
+import type { Source } from "@vim-fall/std";
+import { derive } from "@vim-fall/custom/derivable";
+import type { mr } from "@vim-fall/extra/source/mr";
 import { mrMixed } from "./mod.ts";
 
 type SourceDetail<T> = T extends Source<infer U> ? U
