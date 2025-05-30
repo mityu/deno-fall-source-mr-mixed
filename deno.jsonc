@@ -23,7 +23,7 @@
     "@std/testing": "jsr:@std/testing@^1.0.9",
     "@vim-fall/custom": "jsr:@vim-fall/custom@^0.1.0",
     "@vim-fall/extra": "jsr:@vim-fall/extra@^0.2.0",
-    "@vim-fall/std": "jsr:@vim-fall/std@^0.10.0"
+    "@vim-fall/std": "jsr:@vim-fall/std@^0.12.0"
   },
   "tasks": {
     "check-all": "deno task check && deno task check:doc && deno task lint && deno task test",
